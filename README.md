@@ -19,7 +19,13 @@ This file is helpful in order to understand the Run_analysis code. The 5 requeri
 
 * In order to obtain the average for each column variable, for each activity and each subject I used the command subset()
 inside of a for loop havind a counter from 1 to 30 (each subject). Inside of this loop thre are condition (if) to select the activity. A local variable called filtered was needed so save the results of colMeans(filtered[,3:68])). Other variables were created to save the results in the correct format.
-* Finally, the requeriment 5 was in a table called mytidy.
 
+* Finally, the requeriment 5 was present in a table called mytidy.
 
+# Variable names
 
+* mySubjectTrain : data from subject_train.txt       * mySubjectTest  : data from  subject_test.txt
+* myTrainY   :  data from Y_train.txt                * myTestY    : data from Y_test.txt
+* myFeatures : data from features.txt                * myTest     : data from X_test.txt
+* myTrain    : data from X_train.txt                 * tableActiv : data from myTrain bind to myTest 
+* mySubject   : data from mySubjectTrain bind to mySubjectTest
