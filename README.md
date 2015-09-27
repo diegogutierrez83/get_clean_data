@@ -16,3 +16,5 @@ This file is helpful in order to understand the Run_analysis code. The 5 requeri
 * A complete table is generated binding subject, activity, and test+train tables using cbind().
 
 * The function grep() was used to generate a subtable, from the complete table, with columns names having "mean()" and "std()" characters.
+
+Roses are <span style="color:red">red</span>, violets are <span style="color:blue">blue</span>.
