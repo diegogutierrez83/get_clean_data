@@ -17,7 +17,7 @@ This file is helpful in order to understand the Run_analysis code. The 5 requeri
 
 * The function grep() was used to generate a subtable, from the complete table, with columns names having "mean()" and "std()" characters.
 
-* In order to obtain the average for each column variable, for each activity and each subject I used the command subset()
+* In order to obtain the average for each column variable for each activity and each subject, I used the command subset()
 inside of a for loop havind a counter from 1 to 30 (each subject). Inside of this loop thre are condition (if) to select the activity. A local variable called filtered was needed filter by subject and activity. Other variables were created to save the results in the correct format.
 
 * Finally, the requeriment 5 was present in a table called mytidy.
