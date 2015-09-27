@@ -35,7 +35,7 @@ inside of a for loop havind a counter from 1 to 30 (each subject). Inside of thi
 *  mySubject   : data from mySubjectTrain bind to mySubjectTest
 *  myActivity  : data from myTrainY bind to myTestY
 *  tableComplete : data from mySubject bind to myActivity bind to tableActiv
-*  subtable    : table resulting from select "mean()" and "std()"
+*  subtable    : table resulting from selecting "mean()" and "std()"
 *  filtered    : local variable by activity and subject
 *  mysubsetW, mysubsetWup, mysubsetWdn, mysubsetStt, mysubsetStd, mysubsetLy : local variables 
 *  result      : variable to merge the result of local variables
