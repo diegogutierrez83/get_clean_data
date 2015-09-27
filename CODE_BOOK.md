@@ -38,7 +38,7 @@ inside of a for loop havind a counter from 1 to 30 (each subject). Inside of thi
 *  subtable    : table resulting from select "mean()" and "std()"
 *  filtered    : local variable by activity and subject
 *  mysubsetW, mysubsetWup, mysubsetWdn, mysubsetStt, mysubsetStd, mysubsetLy : local variables 
-*  result      : variable to merge the result of local variable
-*  result2     : to save  result in one unique list, ten transform in data.frame
+*  result      : variable to merge the result of local variables
+*  result2     : to save  result in one unique list, then, transform in data.frame
 *  mytidy      : tidy data set with the average of each variable for each activity and each subject. From result2.
 
